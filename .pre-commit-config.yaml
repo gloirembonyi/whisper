@@ -19,7 +19,16 @@ repos:
     hooks:
       - id: isort
         name: isort (python)
-        args: ["--profile", "black", "-l", "88", "--trailing-comma", "--multi-line", "3"]
+        args:
+          [
+            "--profile",
+            "black",
+            "-l",
+            "88",
+            "--trailing-comma",
+            "--multi-line",
+            "3",
+          ]
   - repo: https://github.com/pycqa/flake8.git
     rev: 7.1.1
     hooks:
