@@ -7,7 +7,6 @@ __pycache__/
 
 thumbs.db
 .DS_Store
-temp_auto_push.bat
 .idea
 
 .gitignore
@@ -17,4 +16,3 @@ temp_auto_push.bat
 .env.*
 !.env.example
 public/fonts/fa-solid-400.woff2
-branch_structure.json
